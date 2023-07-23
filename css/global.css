@@ -1,0 +1,155 @@
+.navbar {
+  padding: 2.3125rem 10.125rem;
+}
+.navbar a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+}
+.navbar .navbar-brand {
+  margin-right: 9.38rem;
+}
+.navbar #navbar-nav {
+  text-align: end;
+}
+@media (max-width: 992px) {
+  .navbar .navbar-brand {
+    position: absolute;
+    right: 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+#inspire {
+  position: relative;
+}
+#inspire img {
+  width: 100%;
+}
+#inspire div {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#inspire div h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+  font-size: 3.1vw;
+}
+#inspire div button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.75rem 2.4375rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.625rem;
+  border-radius: 1rem;
+  background: #EFD372;
+  -webkit-box-shadow: 5px 7px #888888;
+          box-shadow: 5px 7px #888888;
+  text-align: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+}
+#inspire div button:hover {
+  -webkit-transition: all 0.05s linear;
+  transition: all 0.05s linear;
+  background-color: #ffd24b;
+}
+#inspire div button:active {
+  -webkit-transition: all 0.05s linear;
+  transition: all 0.05s linear;
+  margin-top: 7px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#recommend {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+#recommend h2 {
+  text-align: center;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+  font-size: 5rem;
+  margin: 3rem;
+}
+#recommend #fireship, #recommend #w3 {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40rem;
+  height: 15rem;
+}
+#recommend #fireship img, #recommend #w3 img {
+  height: 15rem;
+  border-radius: 10px;
+  position: relative;
+}
+#recommend #fireship a:hover img, #recommend #fireship a:hover a, #recommend #w3 a:hover img, #recommend #w3 a:hover a {
+  -webkit-transition: all 0.05s ease;
+  transition: all 0.05s ease;
+  opacity: 0.7;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  height: 16rem;
+  cursor: pointer;
+}
+#recommend #fireship p, #recommend #w3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+  margin: 1rem;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=global.css.map */

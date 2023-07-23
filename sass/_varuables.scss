@@ -1,0 +1,12 @@
+$base-color: #274C5B;
+$btn-clolor: #EFD372;
+$btn-clolor-hover:#ffd24b ;
+$bg: #F9F8F8;
+@mixin mainText{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: $base-color;
+}
