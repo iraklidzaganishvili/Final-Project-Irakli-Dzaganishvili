@@ -1,29 +1,3 @@
-.navbar {
-  padding: 2.3125rem 10.125rem;
-}
-.navbar a {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  color: #274C5B;
-}
-.navbar .navbar-brand {
-  margin-right: 9.38rem;
-}
-.navbar #navbar-nav {
-  text-align: end;
-}
-@media (max-width: 992px) {
-  .navbar .navbar-brand {
-    position: absolute;
-    right: 0%;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-}
-
 #inspire {
   position: relative;
 }
@@ -51,49 +25,6 @@
   color: #274C5B;
   font-size: 3.1vw;
 }
-#inspire div button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 1.75rem 2.4375rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 0.625rem;
-  border-radius: 1rem;
-  background: #EFD372;
-  -webkit-box-shadow: 5px 7px #888888;
-          box-shadow: 5px 7px #888888;
-  text-align: center;
-  -ms-flex-item-align: center;
-      align-self: center;
-  margin-top: 1rem;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  color: #274C5B;
-}
-#inspire div button:hover {
-  -webkit-transition: all 0.05s linear;
-  transition: all 0.05s linear;
-  background-color: #ffd24b;
-}
-#inspire div button:active {
-  -webkit-transition: all 0.05s linear;
-  transition: all 0.05s linear;
-  margin-top: 7px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
 
 #recommend {
   width: 100%;
@@ -104,6 +35,8 @@
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 3rem;
+  margin-bottom: 14rem;
 }
 #recommend h2 {
   text-align: center;
@@ -117,7 +50,7 @@
   line-height: normal;
   color: #274C5B;
   font-size: 5rem;
-  margin: 3rem;
+  margin: 8rem;
 }
 #recommend #fireship,
 #recommend #w3 {
@@ -138,8 +71,6 @@
 #recommend #fireship a:hover a,
 #recommend #w3 a:hover img,
 #recommend #w3 a:hover a {
-  -webkit-transition: all 0.05s ease;
-  transition: all 0.05s ease;
   opacity: 0.7;
   bottom: 0.5rem;
   right: 0.5rem;
@@ -158,4 +89,51 @@
   -ms-flex-item-align: center;
       align-self: center;
   font-size: 1.5rem;
+}
+
+#myproj {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10rem;
+  position: relative;
+  cursor: pointer;
+}
+#myproj img {
+  width: 70%;
+  border-radius: 20px;
+  padding: 0;
+  -webkit-box-shadow: 8px 1rem rgba(136, 136, 136, 0.5568627451);
+          box-shadow: 8px 1rem rgba(136, 136, 136, 0.5568627451);
+}
+#myproj h1 {
+  position: absolute;
+  bottom: 23%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+  font-size: 10vw;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.259);
+}
+#myproj:hover {
+  opacity: 0.7;
+}
+#myproj:active {
+  -webkit-transition: all 0.05s linear;
+  transition: all 0.05s linear;
+  top: 1rem;
+}
+#myproj:active img {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+#myproj:active h1 {
+  text-shadow: none;
 }/*# sourceMappingURL=global.css.map */

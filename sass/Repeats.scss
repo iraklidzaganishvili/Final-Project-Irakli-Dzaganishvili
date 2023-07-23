@@ -1,0 +1,116 @@
+@import "varuables";
+html { 
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.navbar {
+    padding: 2.3125rem 10.125rem;
+
+    a {
+        @include mainText;
+    }
+
+    .navbar-brand {
+        margin-right: 9.38rem;
+    }
+
+    #navbar-nav {
+        text-align: end;
+    }
+
+    @media (max-width: 992px) {
+        .navbar-brand {
+            position: absolute;
+            right: 0%;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+    }
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    background-color: $bg;
+    justify-content: space-around;
+    a,p{
+        @include grayText;
+    }
+    #contacts{
+        margin-top: 3rem;
+        text-align: right;
+    }
+    #footersec2{
+        border-right: $ft-border;
+        border-left: $ft-border;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: 3rem;
+        text-align: center;
+        p{
+            margin-top: 3rem;
+        }
+        img{
+            width: 8rem;
+        }
+        #media{
+            margin-top: 3rem;
+            img{
+                width: 4rem; 
+            }
+        }
+    }
+    #utpages{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        text-align: left;
+    }
+    #copyright{
+        margin-top: 5rem;
+        padding-top: 1rem;
+        border-top: $ft-border;
+        flex: 100%;
+        text-align: center;
+    }
+    @media (max-width: 992px) {
+        #utpages, #contacts{
+            text-align: center;
+        }
+        #footersec2{
+            border: none;
+            border-top: $ft-border;
+            border-bottom: $ft-border;
+            padding: 3rem;
+        }
+    }
+}
+
+.custom-btn{
+        display: flex;
+        padding: 1.75rem 2.4375rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 1rem;
+        background: $btn-clolor;
+        box-shadow: 5px 0.5rem #888888;
+        text-align: center;
+        align-self: center;
+        margin-top: 1rem;
+            @include mainText;
+
+        &:hover {
+            transition: all .05s linear;
+            background-color: $btn-clolor-hover;
+        }
+
+        &:active {
+            transition: all .05s linear;
+            margin-top: 1.5rem;
+            box-shadow: none;
+        }
+}
