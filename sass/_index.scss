@@ -76,6 +76,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
     h2 {
         text-align: center;
         flex: 100%;
@@ -83,30 +84,36 @@
         font-size: 5rem;
         margin: 3rem;
     }
-    
-    #fireship, #w3{
+
+    #fireship,
+    #w3 {
         margin: 1rem;
         display: flex;
-        width:40rem;
+        width: 40rem;
         height: 15rem;
-        img{
+
+        img {
             height: 15rem;
             border-radius: 10px;
             position: relative;
         }
-        a{
-            &:hover{
-                img, a{
-                transition: all .05s ease;
-                opacity: 0.7;
-                bottom:0.5rem;
-                right:0.5rem;
-                height:16rem;
-                cursor: pointer;
+
+        a {
+            &:hover {
+
+                img,
+                a {
+                    transition: all .05s ease;
+                    opacity: 0.7;
+                    bottom: 0.5rem;
+                    right: 0.5rem;
+                    height: 16rem;
+                    cursor: pointer;
                 }
             }
         }
-        p{
+
+        p {
             @include mainText;
             margin: 1rem;
             align-self: center;
