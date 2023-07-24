@@ -108,6 +108,9 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
+#project_game #cont #inner #centerme {
+  text-align: center;
+}
 #project_game #cont #inner #github {
   width: 10%;
   -ms-flex-item-align: center;
