@@ -1,0 +1,108 @@
+@import "varuables";
+#inspire {
+    position: relative;
+    img {
+        width: 100%;
+    }
+
+    div {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            @include mainText;
+            font-size: 3.1vw;
+        }
+    }
+}
+
+#recommend {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 14rem;
+
+    h2 {
+        text-align: center;
+        flex: 100%;
+        @include mainText;
+        font-size: 5rem;
+        margin: 8rem;
+    }
+
+    #fireship,
+    #w3 {
+        margin: 1rem;
+        display: flex;
+        width: 40rem;
+        height: 15rem;
+
+        img {
+            height: 15rem;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        a {
+            &:hover {
+
+                img,
+                a {
+                    opacity: 0.7;
+                    bottom: 0.5rem;
+                    right: 0.5rem;
+                    height: 16rem;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        p {
+            @include mainText;
+            margin: 1rem;
+            align-self: center;
+            font-size: 1.5rem;
+        }
+    }
+}
+#myproj{
+    width: 70%;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+    position: relative;
+    cursor: pointer;
+    img{
+        width: 100%;
+        border-radius: 20px;
+        padding: 0;
+        box-shadow: 8px 1rem #8888888e;
+    }
+    h1{
+        position: absolute;
+        bottom: 23%;
+        @include mainText;
+        font-size: 10vw;
+        text-shadow: 4px 4px rgba(0, 0, 0, 0.259);
+    }
+    &:hover{
+        opacity: 0.7;
+    }
+    &:active {
+        transition: all .05s linear;
+        top: 1rem;
+        img{
+            box-shadow: none;
+        }
+        h1{
+            text-shadow:none;
+        }
+    }
+}

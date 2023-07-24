@@ -1,0 +1,143 @@
+#inspire {
+  position: relative;
+}
+#inspire img {
+  width: 100%;
+}
+#inspire div {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#inspire div h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+  font-size: 3.1vw;
+}
+
+#recommend {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 3rem;
+  margin-bottom: 14rem;
+}
+#recommend h2 {
+  text-align: center;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+  font-size: 5rem;
+  margin: 8rem;
+}
+#recommend #fireship,
+#recommend #w3 {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40rem;
+  height: 15rem;
+}
+#recommend #fireship img,
+#recommend #w3 img {
+  height: 15rem;
+  border-radius: 10px;
+  position: relative;
+}
+#recommend #fireship a:hover img,
+#recommend #fireship a:hover a,
+#recommend #w3 a:hover img,
+#recommend #w3 a:hover a {
+  opacity: 0.7;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  height: 16rem;
+  cursor: pointer;
+}
+#recommend #fireship p,
+#recommend #w3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+  margin: 1rem;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 1.5rem;
+}
+
+#myproj {
+  width: 70%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10rem;
+  position: relative;
+  cursor: pointer;
+}
+#myproj img {
+  width: 100%;
+  border-radius: 20px;
+  padding: 0;
+  -webkit-box-shadow: 8px 1rem rgba(136, 136, 136, 0.5568627451);
+          box-shadow: 8px 1rem rgba(136, 136, 136, 0.5568627451);
+}
+#myproj h1 {
+  position: absolute;
+  bottom: 23%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+  font-size: 10vw;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.259);
+}
+#myproj:hover {
+  opacity: 0.7;
+}
+#myproj:active {
+  -webkit-transition: all 0.05s linear;
+  transition: all 0.05s linear;
+  top: 1rem;
+}
+#myproj:active img {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+#myproj:active h1 {
+  text-shadow: none;
+}/*# sourceMappingURL=index.css.map */
