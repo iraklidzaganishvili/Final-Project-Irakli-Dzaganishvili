@@ -33,6 +33,9 @@
   color: #274C5B;
   font-size: 1.3rem;
 }
+#project_game #cont h2 {
+  font-size: 1.2rem;
+}
 #project_game #cont p {
   color: #525C60;
   font-family: "Roboto", sans-serif;

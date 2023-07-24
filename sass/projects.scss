@@ -20,6 +20,9 @@
             @include mainText;
             font-size: 1.3rem;
         }
+        h2{
+            font-size: 1.2rem;
+        }
 
         p {
             @include grayText;
