@@ -48,7 +48,6 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border-radius: 10px;
   -ms-flex-item-align: center;
       align-self: center;
 }
@@ -56,6 +55,10 @@
   #project_game #cont #cofc {
     max-width: 100%;
   }
+}
+#project_game #cont #cofc img {
+  width: 100%;
+  border-radius: 10px;
 }
 #project_game #cont #inner {
   display: -webkit-box;
@@ -106,4 +109,10 @@
   width: 10%;
   -ms-flex-item-align: center;
       align-self: center;
+}
+#project_game #cont #inner #github img {
+  width: 100%;
+}
+#project_game #cont #inner #github:hover {
+  width: 12%;
 }/*# sourceMappingURL=projects.css.map */

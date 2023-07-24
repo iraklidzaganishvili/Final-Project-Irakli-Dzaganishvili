@@ -1,6 +1,8 @@
 @import "varuables";
+
 #inspire {
     position: relative;
+
     img {
         width: 100%;
     }
@@ -53,7 +55,7 @@
 
                 img,
                 a {
-                    opacity: 0.7;
+                    opacity: 0.9;
                     bottom: 0.5rem;
                     right: 0.5rem;
                     height: 16rem;
@@ -70,39 +72,46 @@
         }
     }
 }
-#myproj{
+
+#myproj {
     width: 70%;
-    left:50%;
+    left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
     margin-bottom: 10rem;
     position: relative;
     cursor: pointer;
-    img{
+
+    img {
         width: 100%;
         border-radius: 20px;
         padding: 0;
         box-shadow: 8px 1rem #8888888e;
     }
-    h1{
+
+    h1 {
         position: absolute;
         bottom: 23%;
         @include mainText;
         font-size: 10vw;
         text-shadow: 4px 4px rgba(0, 0, 0, 0.259);
     }
-    &:hover{
-        opacity: 0.7;
+
+    &:hover {
+        opacity: 0.9;
     }
+
     &:active {
         transition: all .05s linear;
         top: 1rem;
-        img{
+
+        img {
             box-shadow: none;
         }
-        h1{
-            text-shadow:none;
+
+        h1 {
+            text-shadow: none;
         }
     }
 }

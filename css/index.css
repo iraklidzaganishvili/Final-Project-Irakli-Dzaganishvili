@@ -71,7 +71,7 @@
 #recommend #fireship a:hover a,
 #recommend #w3 a:hover img,
 #recommend #w3 a:hover a {
-  opacity: 0.7;
+  opacity: 0.9;
   bottom: 0.5rem;
   right: 0.5rem;
   height: 16rem;
@@ -127,7 +127,7 @@
   text-shadow: 4px 4px rgba(0, 0, 0, 0.259);
 }
 #myproj:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 #myproj:active {
   -webkit-transition: all 0.05s linear;

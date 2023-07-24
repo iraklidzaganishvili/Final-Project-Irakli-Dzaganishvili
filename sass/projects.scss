@@ -30,10 +30,13 @@
         #cofc {
             max-width: 50%;
             height: fit-content;
-            border-radius: 10px;
             align-self: center;
             @media (max-width: 992px) {
                 max-width: 100%;
+            }
+            img{
+                width: 100%;
+                border-radius: 10px;
             }
         }
 
@@ -66,9 +69,15 @@
                 }
             }
 
-            #github {
+            #github{
                 width: 10%;
                 align-self: center;
+                img{
+                    width: 100%;
+                }
+                &:hover{
+                    width: 12%;
+                }
             }
         }
     }
