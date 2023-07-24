@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Projects</title>
-        <link rel="icon" href="../images/tab_logo.png">
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    
-        <link rel="stylesheet" href="../css/reset.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-            crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../css/global.css">
-        <link rel="stylesheet" href="../css/Repeats.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="icon" href="../images/tab_logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/Repeats.css">
+</head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -52,6 +54,64 @@
             </div>
         </nav>
     </header>
-    
+    <section id="project_game">
+        <div id="cont">
+            <img src="../images/cubesofcalm.png" alt="A game that I am developing" id="cofc">
+            <div id="inner">
+                <h1>My Current Project</h1>
+                <p>This is a game I am writing in vanilla javascript (if we don't count sveltekit). The player controls
+                    a
+                    slime and needs to get to water without hitting the walls or the moving red slimes. I am building it
+                    to
+                    get better at javascript and hopefully learn sveltekit but it really isn't made for what I am using
+                    it
+                    for.</p>
+                <div>
+                    <img src="../images/level_editor_icon.png" alr="An icon of a level editor">
+                    <div id="subcont">
+                        <h2>Level Editor</h2>
+                        <p>The game board is 80x40 blocks per level. An 80x40 px image is passed to a python script that
+                            then
+                            converts the image in to an array to be used as a map.</p>
+                    </div>
+                </div>
+                <p>The game is on my GitHub, but is still far from being finished.</p>
+                <img id="github" src="../images/github_logo.png" alr="The logo of GitHub">
+            </div id="inner">
+        </div>
+    </section>
+    <footer>
+        <div id="contacts">
+            <h2>Contact Me</h2>
+            <b>Email</b>
+            <p>dzaganishviliirakli@gmail.com</p>
+            <b>Phone</b>
+            <p>********</p>
+            <b>Address</b>
+            <p>********</p>
+        </div>
+        <div id="footersec2">
+            <img src="../images/logo.png">
+            <p>
+                This is a homework website that I created with the intent of uploading my past projects.
+            </p>
+            <div id="media">
+                <img src="../images/1.svg">
+                <img src="../images/2.svg">
+                <img src="../images/3.svg">
+                <img src="../images/4.svg">
+            </div>
+        </div>
+        <div id="utpages">
+            <h2>Utility Pages</h2>
+            <a href="#">Style Guide</a>
+            <a href="#">404 Not Found</a>
+            <a href="#">Password Protected</a>
+            <a href="#">Licences</a>
+            <a href="#">Changelog</a>
+        </div>
+        <p id="copyright">Copyright © Aragorn Studios™ | Designed by Irakli - Powered by God</p>
+    </footer>
 </body>
+
 </html>

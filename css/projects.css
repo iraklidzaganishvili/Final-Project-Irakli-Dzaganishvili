@@ -1,0 +1,109 @@
+#project_game {
+  background-color: #F9F8F8;
+}
+#project_game #cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 80%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+#project_game #cont h1,
+#project_game #cont h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+  font-size: 1.3rem;
+}
+#project_game #cont p {
+  color: #525C60;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 272.9%;
+  line-height: 120%;
+  font-size: 1.1rem;
+}
+#project_game #cont #cofc {
+  max-width: 50%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+@media (max-width: 992px) {
+  #project_game #cont #cofc {
+    max-width: 100%;
+  }
+}
+#project_game #cont #inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 992px) {
+  #project_game #cont #inner {
+    max-width: 100%;
+  }
+}
+#project_game #cont #inner div {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+#project_game #cont #inner div img {
+  width: 30%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+#project_game #cont #inner div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#project_game #cont #inner #github {
+  width: 10%;
+  -ms-flex-item-align: center;
+      align-self: center;
+}/*# sourceMappingURL=projects.css.map */
