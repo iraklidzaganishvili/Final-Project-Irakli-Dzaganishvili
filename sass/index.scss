@@ -26,8 +26,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 3rem;
-    margin-bottom: 14rem;
+    margin-top: 3vw;
+    margin-bottom: 14vw;
 
     h2 {
         width: 100%;
@@ -35,7 +35,7 @@
         flex: 100%;
         @include mainText;
         font-size: 5rem;
-        margin: 8rem;
+        margin: 8vw;
     }
 
     #fireship,
@@ -91,7 +91,7 @@
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
-    margin-bottom: 10rem;
+    margin-bottom: 10vw;
     position: relative;
     cursor: pointer;
 
