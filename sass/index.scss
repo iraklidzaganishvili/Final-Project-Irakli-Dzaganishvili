@@ -30,6 +30,7 @@
     margin-bottom: 14rem;
 
     h2 {
+        width: 100%;
         text-align: center;
         flex: 100%;
         @include mainText;
@@ -69,6 +70,17 @@
             margin: 1rem;
             align-self: center;
             font-size: 1.5rem;
+        }
+    }
+    @media (max-width: 576px) {
+        #fireship,
+        #w3 {
+            flex-direction: column;
+            height: fit-content;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2rem; 
         }
     }
 }
