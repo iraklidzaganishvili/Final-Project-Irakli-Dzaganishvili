@@ -178,4 +178,25 @@
 }
 .small-cont .cont:hover {
   opacity: 0.9;
+}
+
+.small-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.small-cards div {
+  background-color: #F9F8F8;
+  width: 40rem;
+}
+.small-cards div img {
+  width: 100%;
 }/*# sourceMappingURL=projects.css.map */

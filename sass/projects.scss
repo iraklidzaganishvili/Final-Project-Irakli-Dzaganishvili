@@ -131,3 +131,16 @@
         }
     }
 }
+.small-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    div{
+        background-color: $bg;
+        width: 40rem; 
+        img{
+            width: 100%;
+        }
+    }
+}
