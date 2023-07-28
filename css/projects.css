@@ -178,6 +178,9 @@
 }
 .small-cont .cont:hover {
   opacity: 0.9;
+  -webkit-transform: scale(0.9, 0.9);
+      -ms-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
 }
 
 .small-cards {
@@ -192,11 +195,56 @@
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 10vw;
 }
 .small-cards div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 1.875rem;
   background-color: #F9F8F8;
-  width: 40rem;
+  width: 20rem;
+  margin-top: 5rem;
 }
 .small-cards div img {
   width: 100%;
+}
+.small-cards div p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+  text-align: left;
+  margin: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.small-cards div p:first-of-type {
+  background-color: #274C5B;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  color: white;
+}
+.small-cards div:hover {
+  overflow: hidden;
+}
+.small-cards div:hover img {
+  -webkit-transition: all 0.05s linear;
+  transition: all 0.05s linear;
+  border-radius: 1rem;
+  -webkit-transform: scale(0.9, 0.9);
+      -ms-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  opacity: 0.8;
 }/*# sourceMappingURL=projects.css.map */
