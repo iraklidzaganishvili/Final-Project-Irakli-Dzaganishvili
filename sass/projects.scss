@@ -1,9 +1,9 @@
 @import "varuables";
 
-#project_game {
+.project_game {
     background-color: $bg;
 
-    #cont {
+    .cont {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -12,8 +12,7 @@
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-        margin-top: 4rem;
-        margin-bottom: 4rem;
+        margin-bottom: 7vw;
 
         h1,
         h2 {
@@ -30,7 +29,7 @@
             font-size: 1.1rem;
         }
 
-        #cofc {
+        .cofc {
             max-width: 50%;
             height: fit-content;
             align-self: center;
@@ -43,7 +42,7 @@
             }
         }
 
-        #inner {
+        .inner {
             display: flex;
             flex-direction: column;
             max-width: 40%;
@@ -71,10 +70,10 @@
                     flex-direction: column;
                 }
             }
-            #centerme{
+            .centerme{
                 text-align: center;
             }
-            #github{
+            .github{
                 width: 10%;
                 align-self: center;
                 img{
@@ -84,6 +83,51 @@
                     width: 12%;
                 }
             }
+        }
+    }
+}
+
+.small-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vw;
+    .cont{
+        position: relative;
+        width: 40%;
+        a{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            img{
+                width: 100%;
+                border-radius: 2vw;
+                box-shadow: 0.4vw 0.5vw #888888;
+            }
+        }
+        h1{
+            position: absolute;
+            top: 0;
+            @include mainText;
+            font-size: 4vw;
+            text-shadow: 1px 1px 2px black;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+        }
+        &:active{
+            position: relative;
+            transition: all .05s linear;
+            a{
+                img{
+                    box-shadow: none;
+                }
+            }
+            top:0.5vw;
+        }
+        &:hover{
+            opacity: 0.9;
         }
     }
 }
