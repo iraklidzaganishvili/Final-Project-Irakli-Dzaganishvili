@@ -130,10 +130,14 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-bottom: 10vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .small-cont .cont {
   position: relative;
-  width: 40%;
+  width: 40rem;
+  margin: 1vw;
+  margin-top: 3vw;
 }
 .small-cont .cont a {
   display: -webkit-box;
@@ -157,14 +161,20 @@
   font-weight: 700;
   line-height: normal;
   color: #274C5B;
-  font-size: 4vw;
+  font-size: 6rem;
   text-shadow: 1px 1px 2px black;
   top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translatey(-50%);
+      -ms-transform: translatey(-50%);
+          transform: translatey(-50%);
   cursor: pointer;
+}
+@media (max-width: 576px) {
+  .small-cont .cont h1 {
+    font-size: 18vw;
+  }
 }
 .small-cont .cont:active {
   position: relative;

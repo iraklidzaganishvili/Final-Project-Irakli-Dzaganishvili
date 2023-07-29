@@ -19,6 +19,16 @@
             font-size: 3.1vw;
         }
     }
+    @media (max-width: 992px) {
+        img{
+        width: 150%;
+        }
+        div{
+        h1{
+        font-size: 5.1vw;
+        }
+    }
+    }
 }
 
 #recommend {
@@ -86,7 +96,7 @@
 }
 
 #myproj {
-    width: 70%;
+    width: 70rem;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -106,7 +116,7 @@
         position: absolute;
         bottom: 23%;
         @include mainText;
-        font-size: 10vw;
+        font-size: 10rem;
         text-shadow: 4px 4px rgba(0, 0, 0, 0.259);
     }
 
@@ -124,6 +134,15 @@
 
         h1 {
             text-shadow: none;
+        }
+    }
+    @media (max-width: 992px) {
+        width: 95%;
+        img{
+        box-shadow: 1vw 2vw rgba(0, 0, 0, 0.259);
+        }
+        h1 {
+            font-size: 15vw;
         }
     }
 }

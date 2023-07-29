@@ -25,6 +25,14 @@
   color: #274C5B;
   font-size: 3.1vw;
 }
+@media (max-width: 992px) {
+  #inspire img {
+    width: 150%;
+  }
+  #inspire div h1 {
+    font-size: 5.1vw;
+  }
+}
 
 #recommend {
   width: 100%;
@@ -109,7 +117,7 @@
 }
 
 #myproj {
-  width: 70%;
+  width: 70rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -140,7 +148,7 @@
   font-weight: 700;
   line-height: normal;
   color: #274C5B;
-  font-size: 10vw;
+  font-size: 10rem;
   text-shadow: 4px 4px rgba(0, 0, 0, 0.259);
 }
 #myproj:hover {
@@ -157,4 +165,16 @@
 }
 #myproj:active h1 {
   text-shadow: none;
+}
+@media (max-width: 992px) {
+  #myproj {
+    width: 95%;
+  }
+  #myproj img {
+    -webkit-box-shadow: 1vw 2vw rgba(0, 0, 0, 0.259);
+            box-shadow: 1vw 2vw rgba(0, 0, 0, 0.259);
+  }
+  #myproj h1 {
+    font-size: 15vw;
+  }
 }/*# sourceMappingURL=index.css.map */
