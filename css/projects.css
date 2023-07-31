@@ -90,6 +90,11 @@
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
+@media (max-width: 992px) {
+  .project_game .cont .inner div {
+    margin-left: 0%;
+  }
+}
 .project_game .cont .inner div img {
   width: 30%;
   height: -webkit-fit-content;
@@ -97,6 +102,11 @@
   height: fit-content;
   -ms-flex-item-align: center;
       align-self: center;
+}
+@media (max-width: 992px) {
+  .project_game .cont .inner div img {
+    display: none;
+  }
 }
 .project_game .cont .inner div div {
   display: -webkit-box;

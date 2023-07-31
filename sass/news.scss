@@ -1,0 +1,102 @@
+@import "varuables";
+
+body {
+    background-color: $bg;
+}
+
+.article {
+    background-color: $bg;
+
+    .cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 7vw;
+        margin-top: 7vw;
+
+        h1,
+        h2 {
+            @include mainText;
+            font-size: 1.3rem;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            @include grayText;
+            line-height: 120%;
+            font-size: 1.1rem;
+        }
+
+        .cofc {
+            max-width: 50%;
+            height: fit-content;
+            align-self: center;
+
+            @media (max-width: 992px) {
+                max-width: 100%;
+                width: 100%;
+            }
+
+            img {
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+
+        .inner {
+            display: flex;
+            flex-direction: column;
+            max-width: 40%;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+
+            @media (max-width: 992px) {
+                max-width: 100%;
+            }
+
+            div {
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+                margin-left: 10%;
+                display: flex;
+                width: 100%;
+                flex-wrap: nowrap;
+
+                @media (max-width: 992px) {
+                    margin-left: 0%;
+                }
+
+                img {
+                    width: 6rem;
+                    height: fit-content;
+                    align-self: center;
+
+                    @media (max-width: 992px) {
+                        display: none;
+                    }
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .centerme {
+                text-align: center;
+            }
+        }
+    }
+}

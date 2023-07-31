@@ -1,0 +1,54 @@
+@import "varuables";
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    flex-wrap: wrap;
+    iframe{
+        width: 50rem;
+        height: 30rem;
+        border-radius: 1vw;
+    }
+    #holder{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            text-align: center;
+            @include mainText;
+            font-size: 3.5rem;
+        }
+        div{
+            margin-bottom: 1.5vw;
+            margin-top:1.5vw;
+            width: fit-content;
+            display: flex;
+            b{
+                @include grayText;
+                line-height: 100%;
+                font-size: 1.5rem;
+            }
+            p{
+                @include grayText;
+                line-height: 100%;
+                color: black;
+                font-size: 1.5rem;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+            .github{
+                width: 3rem;
+                align-self: center;
+                img{
+                    width: 100%;
+                }
+                &:hover{
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+}

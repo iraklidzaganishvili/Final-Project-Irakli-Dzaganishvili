@@ -20,7 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/news.css">
     <link rel="stylesheet" href="../css/Repeats.css">
 </head>
 
@@ -41,10 +41,10 @@
                             <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../html/news.html">Coding News</a>
+                            <a class="nav-link active" href="#">Coding News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Projects</a>
+                            <a class="nav-link" href="../html/projects.html">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../html/contacts.html">Contacts</a>
@@ -54,72 +54,57 @@
             </div>
         </nav>
     </header>
-    <section class="project_game">
+
+    <section class="article">
         <div class="cont">
-            <a class="cofc" href="https://github.com/iraklidzaganishvili/Cubesofcalm">
-                <img src="../images/cubesofcalm.png" alt="A game that I am developing">
-            </a>
+
             <div class="inner">
-                <h1>My Current Project</h1>
-                <p>This is a game I am writing in vanilla javascript (if we don't count sveltekit). The player controls
-                    a
-                    slime and needs to get to water without hitting the walls or the moving red slimes. I am building it
-                    to
-                    get better at javascript and hopefully learn sveltekit but it really isn't made for what I am using
-                    it
-                    for.</p>
+                <h1>Phid AI</h1>
+                <p>Phid AI is a new tool for developers to copy-paste code faster and better. It has many different
+                    features for different developers for example you can ask for quick answers or for long interactive
+                    conversations for more accurate answers.</p>
                 <div>
-                    <img src="../images/level_editor_icon.png" alr="An icon of a level editor">
+                    <img src="../images/phid_serv.png" alr="An icon of a level editor">
                     <div class="subcont">
-                        <h2>Level Editor</h2>
-                        <p>The game board is 80x40 blocks per level. A 80x40 px image is passed to a python script that
-                            then
-                            converts the image in to an array to be used as a map.</p>
+                        <h2>Live Data</h2>
+                        <p>
+                            Phid is trained on live data from many websites like stack overflow and code libraries so
+                            the data is never outdated.
+                        </p>
                     </div>
                 </div>
-                <p class="centerme">The game is on my GitHub, but is still far from being finished.</p>
-                <a class="github" href="https://github.com/iraklidzaganishvili/Cubesofcalm">
-                    <img src="../images/github_logo.png" alr="The logo of GitHub">
-                </a>
+                <p class="centerme">Phid is free but works much better than chat-gpt 4 for coding.</p>
+            </div class="inner">
+            <a class="cofc" href="https://www.phind.com/">
+                <img src="../images/phid.jpg" alt="A game that I am developing">
+            </a>
+        </div>
+    </section>
+
+    <section class="article">
+        <div class="cont">
+            <a class="cofc" href="https://survey.stackoverflow.co/2023">
+                <img src="../images/stack.png" alt="A game that I am developing">
+            </a>
+            <div class="inner">
+                <h1>Stack Overflow 2023 Survey</h1>
+                <p>
+                    The results of the stack overflow 2023 survey are here. The survey takes place every year and provides some interesting statistics about different coding languages and coding in general as the site is the most popular coding forum in the world. 
+                    </p>
+                <div>
+                    <img src="../images/stack_logo.svg" alr="An icon of a level editor">
+                    <div class="subcont">
+                        <h2>Some Data</h2>
+                        <p>
+                            According to the data 80% of people now learn to code from online resources.
+                        </p>
+                    </div>
+                </div>
+                <p class="centerme">Learn more by clicking on the 2023 developer survey image.</p>
             </div class="inner">
         </div>
     </section>
-    <section class="small-cont">
-        <div class="cont" onclick="location.href='https://iraklidzaganishvili.github.io/TBC-Homework/Homework-1/index.html'">
-            <a href="https://iraklidzaganishvili.github.io/TBC-Homework/Homework-1/index.html">
-                <img src="../images/site1.png" alt="My website project">
-            </a>
-            <h1 style="color: white;">Click Here</h1>
-        </div>
-        <div class="cont" onclick="location.href='https://iraklidzaganishvili.github.io/TBC-Homework/Homework-3/index.html'">
-            <a href="https://iraklidzaganishvili.github.io/TBC-Homework/Homework-3/index.html">
-                <img src="../images/site2.png" alt="My website project">
-            </a>
-            <h1>Click Here</h1>
-        </div>
-    </section>
-    <section class="small-cards">
-        <div>
-            <p>Game</p>
-            <img src="../images/game1.png" alt="Game I made">
-            <p>A film and anime logging site</p>
-        </div>
-        <div>
-            <p>Game</p>
-            <img src="../images/game2.png" alt="Game I made">
-            <p>A small game I made a while ago</p>
-        </div>
-        <div>
-            <p>Game</p>
-            <img src="../images/game3.png" alt="Game I made">
-            <p>An old prototype for the current game I am working on</p>
-        </div>
-        <div>
-            <p>Site</p>
-            <img src="../images/site4.png" alt="Old site">
-            <p>An old site I forgot about</p>
-        </div>
-    </section>
+
     <footer>
         <div id="contacts">
             <h2>Contact Me</h2>
