@@ -1,5 +1,6 @@
 #inspire {
   position: relative;
+  overflow: hidden;
 }
 #inspire img {
   width: 100%;
