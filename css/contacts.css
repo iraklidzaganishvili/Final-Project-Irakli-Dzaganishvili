@@ -1,20 +1,20 @@
-section {
+#cinfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 7vw;
-  margin-bottom: 7vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-section iframe {
+#cinfo iframe {
   width: 50rem;
   height: 30rem;
   border-radius: 1vw;
 }
-section #holder {
+#cinfo #holder {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -32,7 +32,7 @@ section #holder {
       -ms-flex-align: center;
           align-items: center;
 }
-section #holder h1 {
+#cinfo #holder h1 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
@@ -42,9 +42,9 @@ section #holder h1 {
   color: #274C5B;
   font-size: 3.5rem;
 }
-section #holder div {
-  margin-bottom: 1.5vw;
-  margin-top: 1.5vw;
+#cinfo #holder div {
+  margin-bottom: 2vh;
+  margin-top: 2vh;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -52,7 +52,7 @@ section #holder div {
   display: -ms-flexbox;
   display: flex;
 }
-section #holder div b {
+#cinfo #holder div b {
   color: #525C60;
   font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
@@ -62,7 +62,7 @@ section #holder div b {
   line-height: 100%;
   font-size: 1.5rem;
 }
-section #holder div p {
+#cinfo #holder div p {
   color: #525C60;
   font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
@@ -75,14 +75,99 @@ section #holder div p {
   margin-top: auto;
   margin-bottom: auto;
 }
-section #holder div .github {
+@media (max-width: 576px) {
+  #cinfo #holder div b, #cinfo #holder div p {
+    font-size: 100%;
+    text-align: center;
+  }
+}
+#cinfo #holder div .github {
   width: 3rem;
   -ms-flex-item-align: center;
       align-self: center;
 }
-section #holder div .github img {
+#cinfo #holder div .github img {
   width: 100%;
 }
-section #holder div .github:hover {
+#cinfo #holder div .github:hover {
   opacity: 0.9;
+}
+
+#form {
+  width: 100%;
+  margin: 10vw 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#form h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+  font-size: 3rem;
+  margin: 0 1rem;
+  margin-bottom: 5vh;
+}
+#form form {
+  margin: 0 3vw;
+}
+#form form input[type=text],
+#form form input[type=email],
+#form form textarea,
+#form form select {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 3vh;
+}
+#form form label {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+}
+#form form #submit {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: x-large;
+  border-radius: 10px;
+  color: #F9F8F8;
+  background-color: #274C5B;
+}
+#form form #submit:hover {
+  background-color: #254653;
+}
+#form form div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#form form input[type=file] {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 4vh;
 }/*# sourceMappingURL=contacts.css.map */
